@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import static java.lang.System.out;
+import java.util.Scanner;
 
 public class Fungsi {
     
@@ -74,9 +74,9 @@ public class Fungsi {
                 boolean SamaA = false;
                 boolean SamaB = false;
 
-            out.println("\nRelasi ke" + (i+1) + " : ");
+            out.println("\nRelasi ke " + (i+1) + " : ");
             do { 
-                out.print("Masukkan Asal A :");
+                out.print("Masukkan Asal A : ");
                 temp = input.nextInt();
                 out.print("Masukkan Tujuan B : ");
                 temp2 = input.nextInt();
@@ -153,3 +153,4 @@ public class Fungsi {
         out.println("}");
     }
 }
+
