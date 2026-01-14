@@ -12,7 +12,7 @@ public class Himpunan {
         jumlahAnggotaA = input.nextInt();
         System.out.println("Anggota Himpunan A");
         for (int i = 1; i <= jumlahAnggotaA; i++) {
-            System.err.print("Anggota ke-" + i + " : ");
+            System.out.print("Anggota ke-" + i + " : ");
             himpunanA[i] = input.nextInt();
         }
     
@@ -20,7 +20,7 @@ public class Himpunan {
         jumlahAnggotaB = input.nextInt();
         System.out.println("Anggota Himpunan B");
         for (int i = 1; i <= jumlahAnggotaB; i++) {
-            System.err.print("Anggota ke-" + i + " : ");
+            System.out.print("Anggota ke-" + i + " : ");
             himpunanB[i] = input.nextInt();
         }
     }
