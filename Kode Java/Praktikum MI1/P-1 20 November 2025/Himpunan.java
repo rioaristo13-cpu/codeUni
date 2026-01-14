@@ -54,10 +54,10 @@ public class Himpunan {
                 }
             }
             if (!adaSama) {
-                System.err.print(himpunanB[i] + " ");
+                System.out.print(himpunanB[i] + " ");
             }
         }
-        System.out.println("}");
+        System.out.println("}");    
     }
 
     public void himpunanIrisan() {
