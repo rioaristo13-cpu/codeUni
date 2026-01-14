@@ -1,10 +1,11 @@
-#kata adalah string yang ingin dicetak menjadi pola segitiga siku2
+#kata adalah string yang ingin dicetak menjadi pola segitiga 
 kata = input("Masukkan kata : ")
 print(len(kata))
 print(range(len(kata)))
-#outer for loop memasukkan jumlah karakter dari variable kata dengan fungsi len dalam fungsi range
+
+#outer for loop
 for i in range(len(kata)): 
-    for j in range(i+1): #inloop dari range baris+1, print index kolum -> kata  
+    for j in range(i+1): #inloop
         print(kata[j], end="")
     print() #mencetak ke line berikut
     
