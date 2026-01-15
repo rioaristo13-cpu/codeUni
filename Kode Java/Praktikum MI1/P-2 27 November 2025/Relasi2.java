@@ -78,15 +78,18 @@ public class Relasi2 {
 
     public void cetakRelasi() {
         out.print("\nDomain   = { ");
-        for (int i = 1; i<= jumlahAnggotaA; i++) out.print(himpunanA[i] + " ");
+        for (int i = 1; i<= jumlahAnggotaA; i++) 
+            out.print(himpunanA[i] + " ");
         out.println("}");
 
         out.print("\nKodomain = { ");
-        for (int i = 1; i<= jumlahAnggotaB; i++) out.print(himpunanB[i] + " ");
+        for (int i = 1; i<= jumlahAnggotaB; i++) 
+            out.print(himpunanB[i] + " ");
         out.println("}");
 
         out.print("\nRange    = { ");
-        for (int i = 1; i<= jumlahRelasi; i++) out.print(himpunanHasil[i] + " ");
+        for (int i = 1; i<= jumlahRelasi; i++) 
+            out.print(himpunanHasil[i] + " ");
         out.println("}");
 
     }
