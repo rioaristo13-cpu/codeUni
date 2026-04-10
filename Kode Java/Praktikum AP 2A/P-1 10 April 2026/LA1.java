@@ -1,7 +1,6 @@
 import static java.lang.System.out;
 import java.util.Scanner;
 
-
 public class LA1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
