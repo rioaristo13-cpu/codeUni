@@ -25,16 +25,16 @@ public class LA1 {
         input.close();
 
         out.println("===================================================================================");
-        out.print("Berikut Data Diri Anda : \n");
+        out.print("Berikut Data Diri Anda \n");
 
-        out.println("Nama\t\t " + nama);
-        out.println("NPM\t\t " + npm);
-        out.println("Kelas\t\t " + kelas);
-        out.println("Jurusan\t\t " + jurusan);
-        out.println("Fakultas\t " + fakul);
-        out.println("Nilai UTS\t " + nuts);
-        out.println("Nilai UAS\t " + nuas);
-        out.println("Nilai Akhir\t " + nilaiAkhir);
+        out.println("Nama\t\t :" + nama);
+        out.println("NPM\t\t :" + npm);
+        out.println("Kelas\t\t :" + kelas);
+        out.println("Jurusan\t\t :" + jurusan);
+        out.println("Fakultas\t :" + fakul);
+        out.println("Nilai UTS\t :" + nuts);
+        out.println("Nilai UAS\t :" + nuas);
+        out.println("Nilai Akhir\t :" + nilaiAkhir);
 
         out.println("===================================================================================");
     }
